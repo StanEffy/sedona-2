@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Sedona</title>
+  </head>
+  <body class="inner-page">
+    <header class="page-header">
+      <nav class="main-nav main-nav--closed">
+        <div class="mobile-nav__help"></div>
+        <div class="logo-img"></div>
+        <button class="main-nav__toggle " type="button"><span class='visually-hidden'>Открыть меню</span></button>
+        <ul class="main-nav__list">
+          <li class="main-nav__item main-nav__link--main">
+            <div class="main-nav-link"></div>
+            <a href="index.html" class="main-nav__link">Главная</a>
+            <a href="#" class="close-nav"><span class="visually-hidden">закрыть меню</span></a>
+          </li>
+          <li class="main-nav__item"><a href="photos.html" class="main-nav__link main-nav__link--active">Фото и Видео</a></li>
+          <picture class="logo-cover">
+            <source srcset="img/logotype-tablet.png" type="" media='(min-width: 768px)'>
+          
+            <a href="index.html"><img src="img/logotype-tablet.png" class="nav-logo"></a>  
+          </picture>
+
+          
+          <li class="main-nav__item main-nav__item--right"><a href="#" class="main-nav__link">Карта штата</a></li>
+          <li class="main-nav__item main-nav__item--right"><a href="form.html" class="main-nav__link">Гостиницы</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="sedona-inner">
+        <p class="sedona-paragraf__inner"></p>
+      </section>
+      <section class="gallery">
+        <h1 class="gallery-caption">Фото и Видео</h1>
+        <p class="gallery-description">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
+        <ul class="photos-list">
+          <li class="photos-list__item">
+            <div>
+              <picture>
+                <source srcset="img/photo-1-mobile.jpg" type="" media='(max-width: 768px)'>
+                <source srcset="img/photo-1-tablet.jpg" type="" media='(max-width: 1199px)'>
+                <source srcset="img/photo-1-desktop.jpg" type="" media='(min-width: 1200px)'>
+                <img src="img/photo-1-tablet.jpg" class="gallery-img">
+              </picture>
+            </div>
+            <div class="gallery-text-background gallery-text-background--wide">
+              <div class="img-description">
+                <h3 class="img-description__caption">Неродные просторы</h3>
+                <p class="img-description__author">Автор фото: Борис</p>
+              </div>
+              <div class="likes-cover">
+                <p class="thumb-up"></p>
+                <p class="likes">1350</p>
+              </div>
+            </div>
+          </li>
+          <li class="photos-list__item">
+            <div>
+              <picture>
+                <source srcset="img/photo-2-mobile.jpg" type="" media='(max-width: 768px)'>
+                <source srcset="img/photo-2-tablet.jpg" type="" media='(max-width: 1199px)'>
+                <source srcset="img/photo-2-desktop.jpg" type="" media='(min-width: 1200px)'>
+                <img src="img/photo-2-tablet.jpg" class="gallery-img">
+              </picture>
+            </div>
+            <div class="gallery-text-background">
+              <div class="img-description">
+                <h3 class="img-description__caption">Местная ростительность</h3>
+                <p class="img-description__author">Автор фото: Сергей</p>
+              </div>
+              <div class="likes-cover">
+                <p class="thumb-up"></p>
+                <p class="likes">143</p>
+              </div>
+            </div>
+          </li>
+          <li class="photos-list__item">
+            <div>
+              <picture>
+                <source srcset="img/photo-3-mobile.jpg" type="" media='(max-width: 768px)'>
+                <source srcset="img/photo-3-tablet.jpg" type="" media='(max-width: 1199px)'>
+                <source srcset="img/photo-3-desktop.jpg" type="" media='(min-width: 1200px)'>
+                <img src="img/photo-3-tablet.jpg" class="gallery-img">
+              </picture>
+            </div>
+            <div class="gallery-text-background">
+              <div class="img-description">
+                <h3 class="img-description__caption">Дорога на север</h3>
+                <p class="img-description__author">Автор фото: Петр</p>
+              </div>
+              <div class="likes-cover">
+                <p class="thumb-up"></p>
+                <p class="likes">96</p>
+              </div>
+            </div>
+          </li>
+          <li class="photos-list__item">
+            <div> 
+              <picture>
+                <source srcset="img/photo-4-mobile.jpg" type="" media='(max-width: 768px)'>
+                <source srcset="img/photo-4-tablet.jpg" type="" media='(max-width: 1199px)'>
+                <source srcset="img/photo-4-desktop.jpg" type="" media='(min-width: 1200px)'>
+                <img src="img/photo-4-tablet.jpg" class="gallery-img">
+              </picture>
+            </div>
+            <div class="gallery-text-background">
+              <div class="img-description">
+                <h3 class="img-description__caption">Мост дьявола</h3>
+                <p class="img-description__author">Автор фото: Антон</p>
+              </div>
+              <div class="likes-cover">
+                <p class="thumb-up"></p>
+                <p class="likes">254</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="video">
+        <h2 class="video__caption">Всё ещё сомневаетесь?</h2>
+        <p class="video__description">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
+        <div class="video-cover">
+          <picture>
+            <source srcset="img/video-mobile.jpg" type="" media='(max-width: 768px)'>
+            <source srcset="img/video-tablet.jpg" type="" media='(max-width: 1199px)'>
+            <source srcset="img/video-desktop.jpg" type="" media='(min-width: 1200px)'>
+            <img src="img/video-tablet.jpg" class="video-img">
+          </picture>
+            <div class="player-controls__cover">
+              <div class="video__black-stripe">
+                <div class="video-line">
+                  <a href="" class="video-toggle"></a>
+                </div>
+              </div>
+              <div class="controls">
+                <ul class="controls-list">
+                  <li class="">
+                    <a href="" class="controls__item controls__item--repeat"></a>
+                  </li>
+                  <li class="controls__item--group">
+                    <a href="" class="controls__item controls__item--sub"></a>
+                    <a href="" class="controls__item controls__item--fullscreen"></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+
+      </section>
+    </main>
+    <footer class="main-footer main-footer--gallery">
+      <a href="#" class="visit-sedona visit-sedona--gallery">#visitsedona</a>
+      <ul class="footer-social">
+        <li class=" twitter">
+          <a class="footer-social-icon twitter"href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="#FFF" d="M16 0C7.164 0 0 7.164 0 16c0 8.837 7.164 16 16 16 8.837 0 16-7.163 16-16 0-8.836-7.163-16-16-16zm7.944 12.809c-.251 6.516-3.463 10.832-10.992 10.702h-.486c-.447 0-4.543-.443-5.344-1.823 2.479.19 4.247-.406 5.12-1.136-1.048-.289-2.923-.461-3.251-2.848.384.104.618.221 1.299.113-1.307-.824-2.758-1.519-2.679-3.643.311.317 1.164.518 1.46.457-.768-.233-2.149-3.244-.974-4.781 1.984 1.79 4.075 3.482 7.804 3.643.227-2.214 1.24-3.699 3.168-4.325 1.84-.479 3.255.26 3.901 1.138.737-.224 1.453-.466 2.193-.685-.004.833-.569 1.463-.935 1.709.747.165 1.423-.475 1.423-.475-.184.963-1.094 1.725-1.707 1.954z"/></svg></a>
+        </li>
+        <li class=" fb">
+          <a class="footer-social-icon fb" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="22" viewBox="0 0 12 22"><path fill="#FFF" d="M12 4V0H8a4 4 0 0 0-4 4v4H0v4h4v10h4V12h4V8H8V4h4z"/></svg></a>
+        </li>
+        <li class=" youtube">
+          <a href="#" class="footer-social-icon youtube"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#FFF" d="M4.652 0h1.44l.988 3.702.916-3.702h1.454l-1.665 5.505v3.757h-1.431v-3.757l-1.702-5.505zm6.594 2.373c-1.119 0-1.861.74-1.861 1.835v3.349c0 1.204.629 1.831 1.861 1.831 1.022 0 1.826-.683 1.826-1.831v-3.349c0-1.069-.797-1.835-1.826-1.835zm.531 5.127c0 .372-.19.646-.532.646-.351 0-.554-.287-.554-.646v-3.179c0-.374.172-.651.529-.651.39 0 .557.269.557.651v3.179zm4.729-5.07v5.186c-.155.194-.5.512-.747.512-.271 0-.338-.186-.338-.46v-5.238h-1.27v5.71c0 .675.206 1.22.887 1.22.384 0 .918-.2 1.468-.853v.754h1.27v-6.831h-1.27zm2.203 13.858c-.448 0-.541.315-.541.763v.659h1.069v-.66c.001-.44-.092-.762-.528-.762zm-4.703.04c-.084.043-.167.109-.25.198v4.055c.099.106.194.182.287.229.197.1.485.107.619-.067.07-.092.105-.241.105-.449v-3.359c0-.22-.043-.386-.129-.5-.147-.193-.42-.214-.632-.107zm4.827-5.195c-2.604-.177-11.066-.177-13.666 0-2.814.192-3.146 1.892-3.167 6.367.021 4.467.35 6.175 3.167 6.367 2.6.177 11.062.177 13.666 0 2.814-.192 3.146-1.893 3.167-6.367-.021-4.467-.35-6.175-3.167-6.367zm-12.324 10.686h-1.363v-7.54h-1.41v-1.28h4.182v1.28h-1.41v7.54zm4.846 0h-1.21v-.718c-.223.265-.455.467-.696.605-.652.374-1.547.365-1.547-.955v-5.438h1.209v4.988c0 .262.063.438.322.438.236 0 .564-.303.711-.487v-4.939h1.21v6.506zm4.657-1.348c0 .805-.301 1.431-1.106 1.431-.443 0-.812-.162-1.149-.583v.5h-1.221v-8.82h1.221v2.84c.273-.333.644-.608 1.076-.608.886 0 1.18.749 1.18 1.631v3.609zm4.471-1.752h-2.314v1.228c0 .488.042.91.528.91.511 0 .541-.344.541-.91v-.452h1.245v.489c0 1.253-.538 2.013-1.813 2.013-1.155 0-1.746-.842-1.746-2.013v-2.921c0-1.129.746-1.914 1.837-1.914 1.161 0 1.721.738 1.721 1.914v1.656z"/></svg></a>
+        </li>
+      </ul>
+      <div class="footer-academy-cover">
+        <p class="footer-academy__text">разработано</p>
+        <a href="https://www.htmlacademy.ru" class="footer-academy"><svg viewBox='0 0 60 60' id='htmlacademy'><title>htmlacademy</title><path d='M30.2 5H30L10.3 7.1v36.2L30 55l19.7-11.7V7.1L30.2 5zm17 36.8L30 52 12.8 41.8V27l17.1 10.2V39l-11.7-7v1.8L30 40.9v1.9l-11.8-7v1.8l11.8 7 11.9-7.1v-7.6l5.3-3.2v15.1zm-.1-17l-4.7 2.8-2.2 1.3-10.3-6.1v1.8l8.8 5.3h-.1l-.2.1-1.3.7-7.3-4.3v1.8l5.8 3.4-1.4.9-4.3-2.6v1.8l2.9 1.7-2.9 1.7-17-10.1 17-10.2 17.2 10zm.1-1.8L29.9 12.8 12.8 23V9.4L30 7.6l17.2 1.8V23z'></path></svg>
+</a>
+        </div>
+    </footer>
+  </body>
+  <script type="text/javascript">
+      var navMain = document.querySelector('.main-nav');
+      var navToggle = document.querySelector('.main-nav__toggle');
+
+      navMain.classList.remove('main-nav--nojs');
+
+      navToggle.addEventListener('click', function() {
+        if (navMain.classList.contains('main-nav--closed')) {
+          navMain.classList.remove('main-nav--closed');
+          navMain.classList.add('main-nav--opened');
+        } else {
+          navMain.classList.add('main-nav--closed');
+          navMain.classList.remove('main-nav--opened');
+        }
+      });
+    </script>
+</html>
