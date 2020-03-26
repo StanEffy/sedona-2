@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'PT Sans';
+  src: url("../fonts/ptsans.woff2") format("woff2"), url("../fonts/ptsans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 /* this file is used for sass-variables */
 /* this file is used for sass-variables */
 /* this file is used for global/global-page.scss */
@@ -888,7 +894,7 @@ textarea::placeholder {
 
 .modal label {
   font-weight: bold;
-  min-width: 114px;
+  min-width: 125px;
   text-align: left; }
 
 .modal h2 {
@@ -1570,6 +1576,13 @@ fieldset {
   line-height: 26px;
   box-sizing: border-box;
   margin-bottom: 51px; }
+
+.feedback-textarea:hover {
+  background-color: #e5e5e5; }
+
+.feedback-textarea:active, .feedback-textarea:focus {
+  background-color: #ffffff;
+  outline: 4px solid #e5e5e5; }
 
 @media (min-width: 767px) {
   .form-feedback {
